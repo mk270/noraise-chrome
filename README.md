@@ -8,6 +8,6 @@ To use it
      $ make
      $ ./google-chrome
 
-The script ``google-chrome'' is a wrapper around Chrome which sets up the
+The script `google-chrome` is a wrapper around Chrome which sets up the
 library to be run before Chrome, disabling the XRaiseWindow() X11 call.
 
