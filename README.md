@@ -5,6 +5,7 @@ This is a small LD_PRELOADable library for overriding Chrome's new
 "click forces window raise" behaviour, which interferes with some desktops.
 
 To use it
+
      $ make
      $ ./google-chrome
 
