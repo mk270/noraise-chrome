@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -eu
+
+here=$(dirname $0)
+
+# call /usr/bin/google-chrome explicitly by full path; this helps guard
+# against the script calling itself in an infinite loop
+
+LD_PRELOAD=$here/libXNoRaise.so /usr/bin/google-chrome "$@"
+
